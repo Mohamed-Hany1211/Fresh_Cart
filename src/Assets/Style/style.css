@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500;700&display=swap');
+
+
+:root{
+    --main-color:#0aad0a;
+    --light-color:#f0f3f2;
+    --shadow:rgba(10, 173, 10,.4) 0px 2px 4px -1px , rgba(10, 173, 10,.14) 0px 4px 5px 0px ,rgba(10, 173, 10,.4) 0px 2px 4px -1px;
+    --font-family:'Encode Sans', sans-serif;
+    --rating-color:#ffc908;
+}
+
+
+
+.payment-btn{
+    transition: all 0.3s ease !important;
+}
+.payment-btn:hover{
+    color: white !important;
+    background-color: #0aad0a !important;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+.heartColor{
+    color: crimson !important;
+}
+
+.item{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.item:hover{
+    box-shadow: var(--shadow);
+}
+
+.network{
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 99999;
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+.brdr-main{
+    border: solid 1px var(--main-color) !important;
+}
+
+.rating-color{
+    color: var(--rating-color);
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.product:hover{
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+}
+
+.product .btn{
+    transition: transform 0.5s ,opacity 0.5s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.product:hover .btn{
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.font-sm{
+    font-size: 14px;
+}
+
+.text-main{
+    color: var(--main-color) !important;
+}
+
+.bg-Main{
+    background-color: var(--main-color) !important;
+}
+
+.bg-main-light{
+    background-color: var(--light-color) !important;
+    /* border-bottom: #0aad0a 2px solid; */
+}
+
+
+.marginTop{
+    margin-top: 75px;
+}

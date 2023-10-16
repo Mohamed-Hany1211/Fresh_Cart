@@ -1,0 +1,49 @@
+.marginLeft{
+    margin-left: 1.25rem;
+}
+
+.InputmarginLeft{
+    margin-left: 45px;
+}
+
+.btnWidth{
+    width: 200px;
+}
+
+.inputBorder{
+    border: 1px solid rgba(128, 128, 128,0.5);
+    border-radius: 5px;
+}
+
+input:focus-visible {
+    outline-offset: none;
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color none;
+}
+
+.PaymentImg{
+    width: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.PaymentImg2{
+    width: 55px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.h3Font{
+    font-weight: 400;
+    font-size:35px;
+}
+
+.h4Font{
+    font-weight: 400;
+    font-size:27px;
+}
+
